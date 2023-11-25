@@ -1,7 +1,8 @@
+import React from "react";
 import Image from "next/image";
 const Header = () => {
   return (
-    <header className="w-96 flex justify-between">
+    <header class="m-auto mt-5 w-[85rem] h-[3.75rem] items-center flex justify-between ">
       <Image
         src="/icons/logo(1).svg"
         alt="logo"
@@ -9,8 +10,8 @@ const Header = () => {
         height={65}
         priority={true}
       ></Image>
-      <nav>
-        <ul className="flex">
+      <nav className="flex">
+        <ul className="flex gap-10">
           <li>Favorite coffee</li>
           <li>About</li>
           <li>Mobile app</li>
