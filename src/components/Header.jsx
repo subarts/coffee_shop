@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const Header = () => {
   return (
-    <header class="m-auto mt-5 w-[85rem] h-[3.75rem] items-center flex justify-between ">
+    <header className="m-auto mt-5 w-[85rem] h-[3.75rem] items-center flex justify-between ">
       <Image
         src="/icons/logo(1).svg"
         alt="logo"
@@ -18,7 +18,7 @@ const Header = () => {
           <li>Contact us</li>
         </ul>
       </nav>
-      <div>
+      <div className=" flex gap-2">
         <ul>
           <li>Menu</li>
         </ul>
