@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: regular400;
+  src: url("/public/fonts/Inter-Regular.ttf");
+}
+@font-face {
+  font-family: semiBold600;
+  src: url("/public/fonts/Inter-SemiBold.ttf");
+}
+@font-face {
+  font-family: medium;
+  src: url("/public/fonts/Inter-Medium.ttf");
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -20,4 +32,9 @@ body {
   display: flex;
   flex-direction: column;
   background-color: rgb(225, 212, 201,100%);
+}
+header{
+  font-weight: 600;
+  line-height: 150%;
+  font-size: 1rem;
 }
