@@ -1,17 +1,47 @@
 import Header from "@/components/Header"
+import Enjoy from "@/components/Enjoy"
+import Image from "next/image";
 export default function Home() {
   return (
     <>
     <Header/>
     <main className="flex min-h-screen flex-col items-center ">
-      <section className="w-[85rem] h-[40.25rem] rounded-[2.5rem] bg-[url('/image/img-hero.svg')] mt-5  bg-cover bg-center flex flex-col gap-10 justify-center items-start" >
-        <h1 className="leading-[105%] text-[#E1D4C9] text-7xl font-semibold"><span className="text-[#B0907A] italic">Enjoy</span> premium<br/> coffee at our<br/> charming cafe</h1>
-        <p className="text-[#E1D4C9]">With its inviting atmosphere and delicious coffee options, the Coffee<br/>
-        House Resource is a popular destination for coffee lovers and those<br/>
-         seeking a warm and inviting space to enjoy their favorite beverage.</p>
-         <button className="text-white w-[12.5rem] h-16 bg-[#E1D4C9] rounded-[2rem]">Menu</button>
+      <Enjoy/>
+      <section className=" w-[85rem] h-[49.9375rem] flex flex-col items-center mt-[6.25rem]">
+      <h2 className="text-6xl leading-[125%] font-semibold">Choose your <span className="captionItalic">favorite</span> coffee</h2>
+      <div className="h-[40rem] w-[99.4%] mt-10 flex flex-row items-center justify-between">
+      <div className="roundAboutArrow">
+      <Image className="rotate-180"
+        src="/icons/arrow-right.svg"
+        alt="arrow left"
+        width={24}
+        height={24}
+        >
+        </Image>
+        </div>
+        <div className="flex items-center flex-col">
+        <Image
+          src="/image/coffee-slider-1.svg"
+          alt="logo"
+          width={480}
+          height={480}>
+        </Image>
+        <h3 className="text-2xl leading-[125%] font-semibold">S’mores Frappuccino</h3>
+        <p>This new drink takes an espresso and mixes it with brown<br/>
+         sugar and cinnamon before being topped with oat milk.</p>
+        <p>$5.50</p>
+      </div>
+      <div className="roundAboutArrow">
+      <Image 
+        src="/icons/arrow-right.svg"
+        alt="arrow left"
+        width={24}
+        height={24}
+        >
+        </Image>
+        </div>
+        </div>
       </section>
-     
     </main>
     </>
   )

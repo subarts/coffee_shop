@@ -38,3 +38,16 @@ header{
   line-height: 150%;
   font-size: 1rem;
 }
+.roundAboutArrow{
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 2rem;
+  border: 0.0625rem ridge black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.captionItalic{
+  color: #B0907A;
+  font-style: italic;
+}
