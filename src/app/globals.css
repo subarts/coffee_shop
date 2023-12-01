@@ -62,3 +62,35 @@ header{
     background-color: black;
     border-radius: 0.3125rem;
 }
+.firstImg, .fourImg{
+  width: 41.25rem;
+  height: 36.875rem;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.3125rem;
+}
+.imgList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+.secondImg, .thirdImg{
+  height: 26.875rem;
+  width: 41.25rem;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.3125rem;
+}
+.blockImg{
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.imgList  img{
+  scale: 1.1;
+}

@@ -25,7 +25,7 @@ const CoffeeSlider = () => {
             width={480}
             height={480}
           ></Image>
-          <div className="flex flex-col items-center gap-[1.31rem]">
+          <div className="flex flex-col items-center mt-5 gap-4">
             <h3 className="text-2xl leading-[125%] font-semibold">
               S’mores Frappuccino
             </h3>
