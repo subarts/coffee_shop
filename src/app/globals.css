@@ -165,6 +165,13 @@ transition: 3s;
 .imgList img:hover{
   scale: 1;
   transition: 3s;
-
+}
+.navItem{
+  border-block-end: 3px solid rgba(225, 212, 201, 1);
+  transition: 3s;
+}
+.navItem:hover{
+  border-block-end: 3px solid black;
+  transition: 3s;
 }
 

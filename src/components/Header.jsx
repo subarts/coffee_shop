@@ -11,17 +11,17 @@ const Header = () => {
         priority={true}
       ></Image>
       <nav className="flex">
-        <ul className="flex gap-10">
-          <li>
+        <ul className="flex gap-10 ">
+          <li className="navItem">
             <a href="#favorite">Favorite coffee</a>
           </li>
-          <li>
+          <li className="navItem">
             <a href="#about">About</a>
           </li>
-          <li>
+          <li className="navItem">
             <a href="#MobileApp">Mobile app</a>
           </li>
-          <li>
+          <li className="navItem">
             <a href="#footer">Contact us</a>
           </li>
         </ul>
