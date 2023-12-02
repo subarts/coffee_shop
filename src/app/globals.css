@@ -174,4 +174,8 @@ transition: 3s;
   border-block-end: 3px solid black;
   transition: 3s;
 }
+.buttonMenuIcon:hover svg {
+  display: block;
+  transition: 3s;
+}
 
