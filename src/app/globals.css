@@ -110,3 +110,16 @@ top: -4px;
 position: relative;
 left: -23px;
 }
+.cyrcle{
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+  border: 0.0625rem ridge rgba(225, 212, 201, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactItem{
+  display: flex;
+  gap: 0.5625rem;
+}

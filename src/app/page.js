@@ -4,6 +4,7 @@ import Image from "next/image";
 import CoffeeSlider from "@/components/CoffeeSlider";
 import About from "@/components/About";
 import MobileApp from "@/components/mobileApp";
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function Home() {
       <About/>
       <MobileApp/>
     </main>
+    <Footer/>
     </>
   )
 }

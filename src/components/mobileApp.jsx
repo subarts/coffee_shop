@@ -41,7 +41,7 @@ const MobileApp = () => {
               />
 
               <p className="buttonMobText">
-                <span className="text-[10px] relative left-3.5 top-1">
+                <span className="text-[10px] relative -left-3.5 ">
                   Available on
                 </span>
                 <br />

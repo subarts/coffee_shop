@@ -3,7 +3,7 @@ import Image from "next/image";
 const CoffeeSlider = () => {
   return (
     <section className=" w-[85rem] h-[49.9375rem] flex flex-col items-center mt-[6.25rem]">
-      <h2 className="text-6xl leading-[125%] font-semibold">
+      <h2 className="text-6xl leading-tight	 font-semibold">
         Choose your
         <span className="captionItalic"> favorite </span>
         coffee
