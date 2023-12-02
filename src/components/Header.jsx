@@ -12,10 +12,18 @@ const Header = () => {
       ></Image>
       <nav className="flex">
         <ul className="flex gap-10">
-          <li>Favorite coffee</li>
-          <li>About</li>
-          <li>Mobile app</li>
-          <li>Contact us</li>
+          <li>
+            <a href="#favorite">Favorite coffee</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#MobileApp">Mobile app</a>
+          </li>
+          <li>
+            <a href="#footer">Contact us</a>
+          </li>
         </ul>
       </nav>
       <div className=" flex gap-2">

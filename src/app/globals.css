@@ -27,8 +27,11 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+html{
+scroll-behavior: smooth;
+}
 body {
+ 
   display: flex;
   flex-direction: column;
   background-color: rgb(225, 212, 201,100%);
@@ -42,7 +45,7 @@ header{
   width: 3.75rem;
   height: 3.75rem;
   border-radius: 2rem;
-  border: 0.0625rem ridge black;
+  border: 0.0625rem ridge #665F55;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -92,13 +95,15 @@ header{
   gap: 2.5rem;
 }
 .imgList  img{
+  transition: 3s;
   scale: 1.1;
 }
 .buttonMobile{
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
+  border: 1px solid #665F55;
+  transition: 3s;
 }
 .buttonMobText{
 left: 12px;
@@ -109,6 +114,7 @@ top: -4px;
   display: flex;
 position: relative;
 left: -23px;
+
 }
 .cyrcle{
   width: 3.75rem;
@@ -122,4 +128,43 @@ left: -23px;
 .contactItem{
   display: flex;
   gap: 0.5625rem;
+  border-block-end: 3px solid #665F55;
+  transition: 3s;
+  width: fit-content;
 }
+.contactItem:hover{
+  border-block-end: 3px solid rgba(225, 212, 201, 1);
+  transition: 3s;
+}
+.cyrcle:hover{
+  background-color: #E1D4C9;
+  transition: 3s;
+}
+.cyrcle:hover>img{
+  color: black;
+  filter: invert(1);
+  transition: 3s;
+}
+.buttonMobile:hover{
+  background-color: #665F55;
+  color: #E1D4C9;
+  transition: 3s;
+}
+.buttonMobile:hover svg path  {
+  fill: #E1D4C9;
+  transition: 3s;
+}
+.roundAboutArrow:hover{
+  background-color: #665F55;
+  transition: 3s;
+}
+.arrow:hover path{
+stroke: #E1D4C9;
+transition: 3s;
+}
+.imgList img:hover{
+  scale: 1;
+  transition: 3s;
+
+}
+
