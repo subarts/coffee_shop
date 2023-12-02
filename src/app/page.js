@@ -3,6 +3,7 @@ import Enjoy from "@/components/Enjoy"
 import Image from "next/image";
 import CoffeeSlider from "@/components/CoffeeSlider";
 import About from "@/components/About";
+import MobileApp from "@/components/mobileApp";
 export default function Home() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function Home() {
       <Enjoy/>
       <CoffeeSlider/>
       <About/>
+      <MobileApp/>
     </main>
     </>
   )

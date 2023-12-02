@@ -94,3 +94,19 @@ header{
 .imgList  img{
   scale: 1.1;
 }
+.buttonMobile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+.buttonMobText{
+left: 12px;
+position: relative;
+top: -4px;
+}
+.buttonStore{
+  display: flex;
+position: relative;
+left: -23px;
+}
