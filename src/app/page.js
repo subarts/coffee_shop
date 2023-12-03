@@ -19,7 +19,3 @@ export default function Home() {
     </>
   )
 }
-/* display: flex;
-flex-direction: column;
-gap: 40px;
-justify-content: center; */

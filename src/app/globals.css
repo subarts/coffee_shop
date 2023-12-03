@@ -178,4 +178,6 @@ transition: 3s;
   display: block;
   transition: 3s;
 }
-
+.wrapper{
+margin: 0 auto
+}

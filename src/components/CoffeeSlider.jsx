@@ -3,7 +3,7 @@ import Image from "next/image";
 const CoffeeSlider = () => {
   return (
     <section
-      className=" w-[85rem] h-[49.9375rem] flex flex-col items-center mt-[6.25rem]"
+      className="wrapper w-[85rem] h-[49.9375rem] flex flex-col items-center mt-[6.25rem]"
       id="favorite"
     >
       <h2 className="text-6xl leading-tight	 font-semibold">

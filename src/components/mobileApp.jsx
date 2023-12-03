@@ -3,7 +3,7 @@ import Image from "next/image";
 const MobileApp = () => {
   return (
     <section
-      className="w-[85rem] h-[39.375rem] mt-[6.25rem] flex justify-between items-center"
+      className="wrapper w-[85rem] h-[39.375rem] mt-[6.25rem] flex justify-between items-center"
       id="MobileApp"
     >
       <div className="flex flex-col gap-10">
