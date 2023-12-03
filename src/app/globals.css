@@ -179,5 +179,15 @@ transition: 3s;
   transition: 3s;
 }
 .wrapper{
-margin: 0 auto
+  margin: 0 auto
+}
+.coffeeItem{
+  width:19.375rem ;
+  height: 31.625rem;
+  border: 1px solid #C1B6AD;
+  border-radius: 2.5rem;
+  overflow: auto;
+}
+.coffeeItem >img {
+  border-radius: 2.5rem;
 }
