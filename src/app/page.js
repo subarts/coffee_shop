@@ -1,10 +1,10 @@
 import Header from "@/components/Header"
 import Enjoy from "@/components/Enjoy"
-import Image from "next/image";
 import CoffeeSlider from "@/components/CoffeeSlider";
 import About from "@/components/About";
 import MobileApp from "@/components/mobileApp";
 import Footer from "@/components/Footer";
+import { Suspense } from "react";
 export default function Home() {
   return (
     <>
@@ -13,6 +13,7 @@ export default function Home() {
       <Enjoy/>
       <CoffeeSlider/>
       <About/>
+      
       <MobileApp/>
     </main>
     <Footer/>

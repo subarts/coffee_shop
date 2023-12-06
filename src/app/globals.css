@@ -31,7 +31,7 @@ html{
 scroll-behavior: smooth;
 }
 body {
- 
+  cursor: default;
   display: flex;
   flex-direction: column;
   background-color: rgb(225, 212, 201,100%);
@@ -190,4 +190,18 @@ transition: 3s;
 }
 .coffeeItem >img {
   border-radius: 2.5rem;
+}
+input{
+  display: none;
+}
+label input:checked+.menuItem{
+  background: #665F55;
+}
+label{
+cursor: pointer;
+overflow: hidden;
+}
+:checked+div>div{
+  background: #E1D4C9;
+
 }
