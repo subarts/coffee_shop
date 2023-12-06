@@ -27,20 +27,18 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <div className=" flex gap-2">
-        <ul>
-          <li>
-            <Link href={"./coffee"}>Menu</Link>
-          </li>
-        </ul>
-        <Image
-          src="/icons/coffee-cup.svg"
-          alt="coffe cup"
-          width={22}
-          height={28}
-          priority={true}
-        ></Image>
-      </div>
+      <Link href={"./coffee"}>
+        <div className=" flex gap-2">
+          <span>Menu</span>
+          <Image
+            src="/icons/coffee-cup.svg"
+            alt="coffe cup"
+            width={22}
+            height={28}
+            priority={true}
+          ></Image>
+        </div>
+      </Link>
     </header>
   );
 };
