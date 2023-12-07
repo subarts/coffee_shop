@@ -8,22 +8,23 @@ export default function Coffee() {
   return (
     <>
       <Header />
-      <main className="flex items-center flex-col">
-        <h1 className="leading-[105%] text-[#403F3D] text-7xl font-semibold">
+      <main className="flex items-center flex-col mt-5">
+        <h2 className="text-6xl leading-tight	 font-semibold text-[#403F3D] ">
           &nbsp;&nbsp;Behind each of our cups
           <br /> hides an
           <span className="captionItalic"> amazing surprise</span>
-        </h1>
+        </h2>
         <MenuSelect />
-        <div className="flex justify-center gap-8 flex-wrap wrapper">
+        <div className=" flex justify-center gap-10 flex-wrap mt-10 max-w-[85rem]">
           <div className="coffeeItem">
-            <Image
-              className="rounded-[2.5rem]"
-              src={"./image/coffee/coffee-1.svg"}
-              alt="irish coffee"
-              width={310}
-              height={310}
-            />
+            <div className="coffeeItemImg">
+              <Image
+                src={"./image/coffee/coffee-1.svg"}
+                alt="irish coffee"
+                width={310}
+                height={310}
+              />
+            </div>
             <div>
               <h3>Irish coffee</h3>
               <p>
@@ -34,13 +35,14 @@ export default function Coffee() {
             </div>
           </div>
           <div className="coffeeItem">
-            <Image
-              src={"./image/coffee/coffee-2.svg"}
-              alt="irish coffee"
-              width={310}
-              height={310}
-            />
-
+            <div className="coffeeItemImg">
+              <Image
+                src={"./image/coffee/coffee-2.svg"}
+                alt="irish coffee"
+                width={310}
+                height={310}
+              />
+            </div>
             <h3>Kahlua coffee</h3>
             <p>
               Classic coffee with milk and Kahlua liqueur under a cap of frothed
@@ -49,45 +51,53 @@ export default function Coffee() {
             <span>$7.00</span>
           </div>
           <div className="coffeeItem">
-            <Image
-              src={"./image/coffee/coffee-3.svg"}
-              alt="irish coffee"
-              width={310}
-              height={310}
-            />
+            <div className="coffeeItemImg">
+              <Image
+                src={"./image/coffee/coffee-3.svg"}
+                alt="irish coffee"
+                width={310}
+                height={310}
+              />
+            </div>
             <h3>Honey raf</h3>
             <p>Espresso with frothed milk, cream and aromatic honey</p>
             <span>$5.50</span>
           </div>
           <div className="coffeeItem">
-            <Image
-              src={"./image/coffee/coffee-4.svg"}
-              alt="irish coffee"
-              width={310}
-              height={310}
-            />
+            <div className="coffeeItemImg">
+              <Image
+                src={"./image/coffee/coffee-4.svg"}
+                alt="irish coffee"
+                width={310}
+                height={310}
+              />
+            </div>
             <h3>Ice cappuccino</h3>
             <p>Cappuccino with soft thick foam in summer version with ice</p>
             <span>$5.00</span>
           </div>
           <div className="coffeeItem">
-            <Image
-              src={"./image/coffee/coffee-5.svg"}
-              alt="irish coffee"
-              width={310}
-              height={310}
-            />
+            <div className="coffeeItemImg">
+              <Image
+                src={"./image/coffee/coffee-5.svg"}
+                alt="irish coffee"
+                width={310}
+                height={310}
+              />
+            </div>
             <h3>Espresso</h3>
             <p>Classic black coffee</p>
             <span>$4.50</span>
           </div>
           <div className="coffeeItem">
-            <Image
-              src={"./image/coffee/coffee-6.svg"}
-              alt="irish coffee"
-              width={310}
-              height={310}
-            />
+            <div className="coffeeItemImg">
+              <Image
+                src={"./image/coffee/coffee-6.svg"}
+                alt="irish coffee"
+                width={310}
+                height={310}
+              />
+            </div>
             <h3>Latte</h3>
             <p>
               Espresso coffee with the addition of steamed milk and dense milk
@@ -96,23 +106,27 @@ export default function Coffee() {
             <span>$5.50</span>
           </div>
           <div className="coffeeItem">
-            <Image
-              src={"./image/coffee/coffee-7.svg"}
-              alt="irish coffee"
-              width={310}
-              height={310}
-            />
+            <div className="coffeeItemImg">
+              <Image
+                src={"./image/coffee/coffee-7.svg"}
+                alt="irish coffee"
+                width={310}
+                height={310}
+              />
+            </div>
             <h3>Latte macchiato</h3>
             <p>Espresso with frothed milk and chocolate</p>
             <span>$5.50</span>
           </div>
           <div className="coffeeItem">
-            <Image
-              src={"./image/coffee/coffee-8.svg"}
-              alt="irish coffee"
-              width={310}
-              height={310}
-            />
+            <div className="coffeeItemImg">
+              <Image
+                src={"./image/coffee/coffee-8.svg"}
+                alt="irish coffee"
+                width={310}
+                height={310}
+              />
+            </div>
             <h3>Coffee with cognac</h3>
             <p>Fragrant black coffee with cognac and whipped cream</p>
             <span>$6.50</span>

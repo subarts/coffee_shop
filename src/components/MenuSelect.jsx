@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const MenuSelect = () => {
   return (
-    <fieldset className="flex gap-4">
+    <fieldset className="flex gap-4 mt-10">
       <label className="w-[7.1875rem] h-[2.875rem] ">
         <input
           type="radio"
@@ -38,18 +38,18 @@ const MenuSelect = () => {
           <span>Tea</span>
         </div>
       </label>
-      <label className=" w-[7.1875rem] h-[2.875rem] ">
-        <input type="radio" id="desert" name="menu" value="desert" />
+      <label className=" w-[7.75rem] h-[2.875rem] ">
+        <input type="radio" id="dessert" name="menu" value="dessert" />
         <div className="menuItem h-full bg-[#E1D4C9] border border-[#C1B6AD] rounded-3xl flex items-center  pl-2 gap-2">
           <div className="w-[1.875rem] h-[1.875rem] rounded-full bg-[#C1B6AD]  flex items-center justify-center">
             <Image
               src="./icons/desert.svg"
-              alt="desert"
+              alt="dessert"
               width={16}
               height={24}
             />
           </div>
-          <span>Desert</span>
+          <span>Dessert</span>
         </div>
       </label>
     </fieldset>
