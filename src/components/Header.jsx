@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 const Header = () => {
   return (
     <header className="m-auto mt-5 w-[85rem] h-[3.75rem] items-center flex justify-between ">
@@ -26,18 +27,18 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <div className=" flex gap-2">
-        <ul>
-          <li>Menu</li>
-        </ul>
-        <Image
-          src="/icons/coffee-cup.svg"
-          alt="coffe cup"
-          width={22}
-          height={28}
-          priority={true}
-        ></Image>
-      </div>
+      <Link href={"./coffee"}>
+        <div className=" flex gap-2">
+          <span>Menu</span>
+          <Image
+            src="/icons/coffee-cup.svg"
+            alt="coffe cup"
+            width={22}
+            height={28}
+            priority={true}
+          ></Image>
+        </div>
+      </Link>
     </header>
   );
 };

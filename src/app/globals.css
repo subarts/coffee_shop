@@ -31,7 +31,7 @@ html{
 scroll-behavior: smooth;
 }
 body {
- 
+  cursor: default;
   display: flex;
   flex-direction: column;
   background-color: rgb(225, 212, 201,100%);
@@ -178,4 +178,41 @@ transition: 3s;
   display: block;
   transition: 3s;
 }
+.wrapper{
+  margin: 0 auto;
+  max-width: 85rem;
+}
+.coffeeItem{
+  width:19.375rem ;
+  height: 31.625rem;
+  border: 1px solid #C1B6AD;
+  border-radius: 2.5rem;
+}
 
+input{
+  display: none;
+}
+label input:checked+.menuItem{
+  background: #665F55;
+  
+}
+label{
+cursor: pointer;
+overflow: hidden;
+}
+:checked+div>div{
+  background: #E1D4C9;
+  transition: 1s;
+}
+.coffeeItemImg>img{
+  scale: 1.1;
+}
+.coffeeItemImg{
+width: 19.375rem;
+height: 19.375rem;
+border-radius: 2.5rem;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+}
