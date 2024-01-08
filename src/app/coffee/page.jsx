@@ -38,7 +38,7 @@ export default function Coffee() {
             <div className="listItemImage">
               <Image
                 src={"./image/coffee/coffee-2.svg"}
-                alt="irish coffee"
+                alt="Kahlua coffee"
                 width={310}
                 height={310}
               />
@@ -56,7 +56,7 @@ export default function Coffee() {
             <div className="listItemImage">
               <Image
                 src={"./image/coffee/coffee-3.svg"}
-                alt="irish coffee"
+                alt="Honey raf"
                 width={310}
                 height={310}
               />
@@ -71,7 +71,7 @@ export default function Coffee() {
             <div className="listItemImage">
               <Image
                 src={"./image/coffee/coffee-4.svg"}
-                alt="irish coffee"
+                alt="Ice cappuccino"
                 width={310}
                 height={310}
               />
@@ -86,7 +86,7 @@ export default function Coffee() {
             <div className="listItemImage">
               <Image
                 src={"./image/coffee/coffee-5.svg"}
-                alt="irish coffee"
+                alt="Classic black coffee"
                 width={310}
                 height={310}
               />
@@ -101,7 +101,7 @@ export default function Coffee() {
             <div className="listItemImage">
               <Image
                 src={"./image/coffee/coffee-6.svg"}
-                alt="irish coffee"
+                alt="Latte"
                 width={310}
                 height={310}
               />
@@ -119,7 +119,7 @@ export default function Coffee() {
             <div className="listItemImage">
               <Image
                 src={"./image/coffee/coffee-7.svg"}
-                alt="irish coffee"
+                alt="Latte macchiato"
                 width={310}
                 height={310}
               />
@@ -134,7 +134,7 @@ export default function Coffee() {
             <div className="listItemImage">
               <Image
                 src={"./image/coffee/coffee-8.svg"}
-                alt="irish coffee"
+                alt="Coffee with cognac"
                 width={310}
                 height={310}
               />
