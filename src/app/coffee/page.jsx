@@ -16,8 +16,8 @@ export default function Coffee() {
         </h2>
         <MenuSelect />
         <div className=" flex justify-center gap-10 flex-wrap mt-10 max-w-[85rem]">
-          <div className="coffeeItem ">
-            <div className="coffeeItemImg">
+          <div className="listItem ">
+            <div className="listItemImage">
               <Image
                 src={"./image/coffee/coffee-1.svg"}
                 alt="irish coffee"
@@ -25,7 +25,7 @@ export default function Coffee() {
                 height={310}
               />
             </div>
-            <div className="coffeeDescript">
+            <div className="itemDescript">
               <h3>Irish coffee</h3>
               <p>
                 Fragrant black coffee with Jameson Irish whiskey and whipped
@@ -34,8 +34,8 @@ export default function Coffee() {
               <span>$7.00</span>
             </div>
           </div>
-          <div className="coffeeItem">
-            <div className="coffeeItemImg">
+          <div className="listItem">
+            <div className="listItemImage">
               <Image
                 src={"./image/coffee/coffee-2.svg"}
                 alt="irish coffee"
@@ -43,7 +43,7 @@ export default function Coffee() {
                 height={310}
               />
             </div>
-            <div className="coffeeDescript">
+            <div className="itemDescript">
               <h3>Kahlua coffee</h3>
               <p>
                 Classic coffee with milk and Kahlua liqueur under a cap of
@@ -52,8 +52,8 @@ export default function Coffee() {
               <span>$7.00</span>
             </div>
           </div>
-          <div className="coffeeItem">
-            <div className="coffeeItemImg">
+          <div className="listItem">
+            <div className="listItemImage">
               <Image
                 src={"./image/coffee/coffee-3.svg"}
                 alt="irish coffee"
@@ -61,14 +61,14 @@ export default function Coffee() {
                 height={310}
               />
             </div>
-            <div className="coffeeDescript">
+            <div className="itemDescript">
               <h3>Honey raf</h3>
               <p>Espresso with frothed milk, cream and aromatic honey</p>
               <span>$5.50</span>
             </div>
           </div>
-          <div className="coffeeItem">
-            <div className="coffeeItemImg">
+          <div className="listItem">
+            <div className="listItemImage">
               <Image
                 src={"./image/coffee/coffee-4.svg"}
                 alt="irish coffee"
@@ -76,14 +76,14 @@ export default function Coffee() {
                 height={310}
               />
             </div>
-            <div className="coffeeDescript">
+            <div className="itemDescript">
               <h3>Ice cappuccino</h3>
               <p>Cappuccino with soft thick foam in summer version with ice</p>
               <span>$5.00</span>
             </div>
           </div>
-          <div className="coffeeItem">
-            <div className="coffeeItemImg">
+          <div className="listItem">
+            <div className="listItemImage">
               <Image
                 src={"./image/coffee/coffee-5.svg"}
                 alt="irish coffee"
@@ -91,14 +91,14 @@ export default function Coffee() {
                 height={310}
               />
             </div>
-            <div className="coffeeDescript">
+            <div className="itemDescript">
               <h3>Espresso</h3>
               <p>Classic black coffee</p>
               <span>$4.50</span>
             </div>
           </div>
-          <div className="coffeeItem">
-            <div className="coffeeItemImg">
+          <div className="listItem">
+            <div className="listItemImage">
               <Image
                 src={"./image/coffee/coffee-6.svg"}
                 alt="irish coffee"
@@ -106,7 +106,7 @@ export default function Coffee() {
                 height={310}
               />
             </div>
-            <div className="coffeeDescript">
+            <div className="itemDescript">
               <h3>Latte</h3>
               <p>
                 Espresso coffee with the addition of steamed milk and dense milk
@@ -115,8 +115,8 @@ export default function Coffee() {
               <span>$5.50</span>
             </div>
           </div>
-          <div className="coffeeItem">
-            <div className="coffeeItemImg">
+          <div className="listItem">
+            <div className="listItemImage">
               <Image
                 src={"./image/coffee/coffee-7.svg"}
                 alt="irish coffee"
@@ -124,14 +124,14 @@ export default function Coffee() {
                 height={310}
               />
             </div>
-            <div className="coffeeDescript">
+            <div className="itemDescript">
               <h3>Latte macchiato</h3>
               <p>Espresso with frothed milk and chocolate</p>
               <span>$5.50</span>
             </div>
           </div>
-          <div className="coffeeItem">
-            <div className="coffeeItemImg">
+          <div className="listItem">
+            <div className="listItemImage">
               <Image
                 src={"./image/coffee/coffee-8.svg"}
                 alt="irish coffee"
@@ -139,7 +139,7 @@ export default function Coffee() {
                 height={310}
               />
             </div>
-            <div className="coffeeDescript">
+            <div className="itemDescript">
               <h3>Coffee with cognac</h3>
               <p>Fragrant black coffee with cognac and whipped cream</p>
               <span>$6.50</span>

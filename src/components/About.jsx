@@ -2,7 +2,7 @@ import React, { Suspense } from "react"
 import Image from "next/image"
 const About = () => {
   return (
-    <section className="wrapper mt-[6.25rem]" id="about">
+    <section className=" mt-[6.25rem]" id="about">
       <h2 className="text-6xl leading-[125%] font-semibold">
         Resource is
         <span className="captionItalic"> the perfect and cozy place</span> where
