@@ -1,9 +1,9 @@
-import React from "react";
-import Image from "next/image";
+import React from "react"
+import Image from "next/image"
 const Footer = () => {
   return (
     <footer
-      className="bg-[#665F55] w-[85rem] h-[450px] m-auto rounded-[2.5rem] flex items-center mt-[6.25rem] text-[#E1D4C9]"
+      className="mb-10 bg-[#665F55] w-[85rem] h-[450px] m-auto rounded-[2.5rem] flex items-center mt-[6.25rem] text-[#E1D4C9]"
       id="footer"
     >
       <div className="flex flex-col gap-[2.65rem] relative left-[6.2rem]">
@@ -80,7 +80,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

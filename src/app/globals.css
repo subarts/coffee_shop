@@ -178,10 +178,10 @@ transition: 3s;
   display: block;
   transition: 3s;
 }
-.wrapper{
+/* .wrapper{
   margin: 0 auto;
   max-width: 85rem;
-}
+} */
 .coffeeItem{
   width:19.375rem ;
   height: 31.625rem;
