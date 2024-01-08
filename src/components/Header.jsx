@@ -1,6 +1,6 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
+import React, { Suspense } from "react"
+import Image from "next/image"
+import Link from "next/link"
 const Header = () => {
   return (
     <header className="m-auto mt-5 w-[85rem] h-[3.75rem] items-center flex justify-between ">
@@ -40,6 +40,6 @@ const Header = () => {
         </div>
       </Link>
     </header>
-  );
-};
-export default Header;
+  )
+}
+export default Header

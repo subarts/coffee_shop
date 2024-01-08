@@ -187,6 +187,10 @@ transition: 3s;
   height: 31.625rem;
   border: 1px solid #C1B6AD;
   border-radius: 2.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.25rem;
 }
 
 input{
@@ -208,11 +212,27 @@ overflow: hidden;
   scale: 1.1;
 }
 .coffeeItemImg{
-width: 19.375rem;
+width: 19.25rem;
 height: 19.375rem;
 border-radius: 2.5rem;
 overflow: hidden;
 display: flex;
 align-items: center;
 justify-content: center;
+}
+.coffeeDescript{
+  display: flex;
+  flex-direction: column;
+  width: 16.875rem;
+  height: 9.75rem;
+  gap: 12px;
+}
+.coffeeDescript>h3,
+.coffeeDescript span{
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 125%;
+}
+.coffeeDescript p{
+  height: 4.5rem;
 }

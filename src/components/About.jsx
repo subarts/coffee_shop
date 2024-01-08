@@ -1,5 +1,5 @@
-import React from "react";
-import Image from "next/image";
+import React, { Suspense } from "react"
+import Image from "next/image"
 const About = () => {
   return (
     <section className="wrapper mt-[6.25rem]" id="about">
@@ -11,6 +11,7 @@ const About = () => {
         <br />
         catch up with friends, or get some work done.
       </h2>
+
       <div className="imgList mt-10">
         <div className="blockImg">
           <div className="firstImg">
@@ -50,7 +51,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default About;
+export default About
