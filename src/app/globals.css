@@ -35,11 +35,14 @@ body {
   display: flex;
   flex-direction: column;
   background-color: rgb(225, 212, 201,100%);
+  
 }
 header{
   font-weight: 600;
   line-height: 150%;
   font-size: 1rem;
+  width: 85rem;
+  max-width: 94.44444%;
 }
 .roundAboutArrow{
   width: 3.75rem;
@@ -237,4 +240,8 @@ justify-content: center;
 }
 .itemDescript p{
   height: 4.5rem;
+}
+#footer{
+  width: 85rem;
+  max-width: 94.44444%;
 }
