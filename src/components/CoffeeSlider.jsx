@@ -3,7 +3,7 @@ import Image from "next/image"
 const CoffeeSlider = () => {
   return (
     <section
-      className=" w-[94.44444%] h-[49.9375rem] flex flex-col items-center mt-[6.25rem]"
+      className="  h-[49.9375rem] flex flex-col items-center mt-[6.25rem] container"
       id="favorite"
     >
       <h2 className="text-6xl leading-tight	 font-semibold">
@@ -24,15 +24,15 @@ const CoffeeSlider = () => {
             <path
               d="M6 12H18.5M18.5 12L12.5 6M18.5 12L12.5 18"
               stroke="#665F55"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </div>
         <div className="flex items-center flex-col h-[40rem] ">
           <Image
             src="/image/coffee-slider-1.svg"
-            alt="logo"
+            alt="Logo"
             width={480}
             height={480}
           ></Image>
@@ -60,8 +60,8 @@ const CoffeeSlider = () => {
             <path
               d="M6 12H18.5M18.5 12L12.5 6M18.5 12L12.5 18"
               stroke="#665F55"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </div>

@@ -2,7 +2,7 @@ import React, { Suspense } from "react"
 import Image from "next/image"
 const About = () => {
   return (
-    <section className=" mt-[6.25rem]" id="about">
+    <section className=" mt-[6.25rem] container" id="about">
       <h2 className="text-6xl leading-[125%] font-semibold">
         Resource is
         <span className="captionItalic"> the perfect and cozy place</span> where
@@ -20,14 +20,16 @@ const About = () => {
               alt="woman with coffee"
               width={726}
               height={726}
+              priority={true}
             />
           </div>
           <div className="secondImg">
             <Image
               src={"/image/about-2.svg"}
-              alt="woman with coffee"
+              alt="coffee cup"
               width={660}
               height={430}
+              priority={true}
             />
           </div>
         </div>
@@ -35,17 +37,19 @@ const About = () => {
           <div className="thirdImg">
             <Image
               src={"/image/about-3.svg"}
-              alt="woman with coffee"
+              alt="man with coffee"
               width={660}
               height={430}
+              priority={true}
             />
           </div>
           <div className="fourImg">
             <Image
               src={"/image/about-4.svg"}
-              alt="woman with coffee"
+              alt="woman and man with coffee "
               width={660}
               height={590}
+              priority={true}
             />
           </div>
         </div>

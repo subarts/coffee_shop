@@ -241,6 +241,6 @@ justify-content: center;
 .itemDescript p{
   height: 4.5rem;
 }
-#footer{
-  width: 94.44444%;
+.container{
+  max-width: 85rem;
 }
