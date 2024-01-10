@@ -3,10 +3,10 @@ import Image from "next/image"
 const Footer = () => {
   return (
     <footer
-      className="mb-10 bg-[#665F55] min-h-[28.125rem] m-auto rounded-[2.5rem] flex-wrap flex items-center mt-[6.25rem] text-[#E1D4C9]"
+      className="mb-10 bg-[#665F55] min-h-[28.125rem] pl-[6.5rem] m-auto rounded-[2.5rem] flex-wrap flex items-center mt-[6.25rem] text-[#E1D4C9]"
       id="footer"
     >
-      <div className="flex flex-col gap-[2.65rem] relative left-[6.2rem]">
+      <div className="flex flex-col gap-[2.65rem]  left-[6.2rem]">
         <h2 className="text-6xl leading-[125%] font-semibold">
           Sip, Savor, Smile.
           <br />
@@ -43,7 +43,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="flex h-[11.625rem] gap-10 flex-col relative left-[14.75rem] ">
+      <div className="flex h-[11.625rem] pl-[8.5rem] gap-10 flex-col  left-[14.75rem] ">
         <h3 className="text-2xl font-semibold  leading-tight">Contact us</h3>
         <div className="flex flex-col gap-4">
           <a

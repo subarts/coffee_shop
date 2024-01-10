@@ -2,7 +2,7 @@ import React from "react"
 
 const Enjoy = () => {
   return (
-    <section className=" pl-[6.25rem] w-[85rem] h-[40.25rem] rounded-[2.5rem] bg-[url('/image/img-hero.svg')] mt-5  bg-cover bg-center flex flex-col gap-10 justify-center items-start">
+    <section className=" pl-[6.25rem] w-[94.44444%] h-[40.25rem] rounded-[2.5rem] bg-[url('/image/img-hero.svg')] mt-5  bg-cover bg-center flex flex-col gap-10 justify-center items-start">
       <h1 className="leading-[105%] text-[#E1D4C9] text-7xl font-semibold">
         <span className="captionItalic">Enjoy</span> premium
         <br /> coffee at our
